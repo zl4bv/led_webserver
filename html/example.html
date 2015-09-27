@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>irsend example</title>
+</head>
+<body>
+
+<h1>irsend example</h1>
+
+<table border="0">
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_BRIGHTNESS_PLUS')" href="#">Brightness +</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_BRIGHTNESS_MINUS')" href="#">Brightness -</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_PAUSERUN')" href="#">Pause/Run</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_ONOFF')" href="#">On/Off</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_RED')" href="#">Static Red</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_GREEN')" href="#">Static Green</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_BLUE')" href="#">Static Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_WHITE')" href="#">Static White</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_ORANGE')" href="#">Static Orange</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_PEAGREAN')" href="#">Static Pea Green</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_DARKBLUE')" href="#">Static Dark Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_MILKWHITE')" href="#">Static Milk White</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_DARKYELLOW')" href="#">Static Dark Yellow</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_CYAN')" href="#">Static Cyan</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_LYONSBLUE')" href="#">Static Lyons Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_WHITEPINK')" href="#">Static White Pink</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_YELLOW')" href="#">Static Yellow</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_LIGHTBLUE')" href="#">Static Light Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_PINK')" href="#">Static Pink</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_GREENWHITE')" href="#">Static Green-White</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_LIGHTYELLOW')" href="#">Static Light Yellow</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_SKYBLUE')" href="#">Static Sky Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_BROWN')" href="#">Static Brown</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_STATIC_BLUEWHITE')" href="#">Static Blue White</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_INCREASE_RED')" href="#">Increase Red</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_INCREASE_GREEN')" href="#">Increase Green</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_INCREASE_BLUE')" href="#">Increase Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_SPEEDUP')" href="#">Speed Up</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_DECREASE_RED')" href="#">Decrease Red</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_DECREASE_GREEN')" href="#">Decrease Green</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_DECREASE_BLUE')" href="#">Decrease Blue</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_SPEEDDOWN')" href="#">Speed Down</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_DIY_KEY1')" href="#">DIY Key 1</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_DIY_KEY2')" href="#">DIY Key 2</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_DIY_KEY3')" href="#">DIY Key 3</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_AUTOMATICCHANGE')" href="#">Automatic Change</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_DIY_KEY4')" href="#">DIY Key 4</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_DIY_KEY5')" href="#">DIY Key 5</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_DIY_KEY6')" href="#">DIY Key 6</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_FLASH_ONOFF')" href="#">Flash On And Off</a></td>
+</tr>
+<tr>
+  <td><a onclick="irsend_send_once('TK5050RGB_3COLOR_JUMPYCHANGE')" href="#">3 Colour Jump</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_7COLOR_JUMPYCHANGE')" href="#">7 Colour Jump</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_3COLOR_FADECHANGE')" href="#">3 Colour Fade</a></td>
+  <td><a onclick="irsend_send_once('TK5050RGB_7COLOR_FADECHANGE')" href="#">7 Colour Fade</a></td>
+</tr>
+</table>
+
+<p>
+Based on the tingcam-5050rgb remote:<br/><br/>
+
+<img alt="remote" src="http://4.bp.blogspot.com/-tBXB32wBHFE/VYM8KROIqHI/AAAAAAAAXS4/X-TopnV9rMk/s1600/tingkam2.jpg" />
+<p>
+
+<p>
+Infrared codes and image from <a href="http://ocsovszki-dorian.blogspot.co.nz/2015/06/controlling-tingkam-5050rgb-led-strip.html">http://ocsovszki-dorian.blogspot.co.nz/2015/06/controlling-tingkam-5050rgb-led-strip.html</a>
+</p>
+
+<script>
+function reqListener () {
+  if (this.status == 200) {
+    resp = JSON.parse(this.responseText);
+    if (resp.status == 'success') {
+      console.log('Success: irsend '+resp.directive+' '+resp.device+' '+resp.code);
+    } else {
+      console.log('Failure: irsend '+resp.directive+' '+resp.device+' '+resp.code+" \n"+resp.message);
+    }
+  } else {
+    console.log(this.responseText);
+  }
+}
+
+function irsend_send_once(code) {
+  var oReq = new XMLHttpRequest();
+  oReq.addEventListener('load', reqListener);
+  oReq.open('GET', 'irsend/tingcam-5050rgb/'+code+'/send_once');
+  oReq.send();
+}
+</script>
+
+</body>
+</html>
